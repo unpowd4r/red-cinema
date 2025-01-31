@@ -1,5 +1,10 @@
 {
-  "name": "red-cinema",
+  "name": "onlide-cinema-app",
+  "author": {
+    "email": "sergay.frolov@yandex.ru",
+    "name": "Sergei Frolov",
+    "url": "https://t.me/y0nd1"
+  },
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,9 +14,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^5.2.2",
     "next": "15.1.6",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "sass": "^1.83.4"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
